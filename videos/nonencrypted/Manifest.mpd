@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" minBufferTime="PT2S" mediaPresentationDuration="PT1M" xmlns="urn:mpeg:DASH:schema:MPD:2011">
+  <ProgramInformation moreInformationURL="www.castLabs.com"/>
+  <Period id="0" start="PT0S" duration="PT1M">
+    <AdaptationSet segmentAlignment="true" startWithSAP="1" lang="eng" bitstreamSwitching="true" maxFrameRate="24000/1000" maxWidth="640" maxHeight="360" par="1:1">
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" id="avc1-big-buck-bunny-trailer-360p-250k_1.mp4" bandwidth="256000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-250k_1.mp4</BaseURL>
+        <SegmentBase timescale="12288" indexRangeExact="true" indexRange="744-1064">
+          <Initialization range="44-743"/>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" id="avc1-big-buck-bunny-trailer-360p-500k_1.mp4" bandwidth="510000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-500k_1.mp4</BaseURL>
+        <SegmentBase timescale="12288" indexRangeExact="true" indexRange="744-1064">
+          <Initialization range="44-743"/>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" id="avc1-big-buck-bunny-trailer-360p-1000k.mp4" bandwidth="1032000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-1000k.mp4</BaseURL>
+        <SegmentBase timescale="12288" indexRangeExact="true" indexRange="744-1064">
+          <Initialization range="44-743"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet segmentAlignment="true" startWithSAP="1" lang="eng" bitstreamSwitching="true">
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" id="avc1-big-buck-bunny-trailer-360p-500k.mp4" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-500k.mp4</BaseURL>
+        <SegmentBase timescale="22050" indexRangeExact="true" indexRange="692-856">
+          <Initialization range="44-691"/>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" id="avc1-big-buck-bunny-trailer-360p-250k.mp4" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-250k.mp4</BaseURL>
+        <SegmentBase timescale="22050" indexRangeExact="true" indexRange="692-856">
+          <Initialization range="44-691"/>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" id="mp4a-big-buck-bunny-trailer-22k.mp4" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>mp4a-big-buck-bunny-trailer-22k.mp4</BaseURL>
+        <SegmentBase timescale="22050" indexRangeExact="true" indexRange="692-856">
+          <Initialization range="44-691"/>
+        </SegmentBase>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" id="avc1-big-buck-bunny-trailer-360p-1000k_2.mp4" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-1000k_2.mp4</BaseURL>
+        <SegmentBase timescale="22050" indexRangeExact="true" indexRange="692-856">
+          <Initialization range="44-691"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

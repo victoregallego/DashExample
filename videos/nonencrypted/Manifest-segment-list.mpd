@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" minBufferTime="PT2S" mediaPresentationDuration="PT1M" xmlns="urn:mpeg:DASH:schema:MPD:2011">
+  <ProgramInformation moreInformationURL="www.castLabs.com"/>
+  <Period id="0" start="PT0S" duration="PT1M">
+    <AdaptationSet segmentAlignment="true" startWithSAP="1" lang="eng" bitstreamSwitching="true" maxFrameRate="24000/1000" maxWidth="640" maxHeight="360" par="1:1">
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" bandwidth="256000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-250k_1.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-743"/>
+          <SegmentTimeline>
+            <S d="30208" t="0"/>
+            <S d="30720" t="30208"/>
+            <S d="30720" t="60928"/>
+            <S d="30720" t="91648"/>
+            <S d="38912" t="122368"/>
+            <S d="30720" t="161280"/>
+            <S d="32256" t="192000"/>
+            <S d="30720" t="224256"/>
+            <S d="28160" t="254976"/>
+            <S d="30720" t="283136"/>
+            <S d="30720" t="313856"/>
+            <S d="30720" t="344576"/>
+            <S d="30720" t="375296"/>
+            <S d="30720" t="406016"/>
+            <S d="30720" t="436736"/>
+            <S d="30720" t="467456"/>
+            <S d="30720" t="498176"/>
+            <S d="30720" t="528896"/>
+            <S d="26624" t="559616"/>
+            <S d="30720" t="586240"/>
+            <S d="30720" t="616960"/>
+            <S d="30720" t="647680"/>
+            <S d="26112" t="678400"/>
+            <S d="32768" t="704512"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="1064-83863"/>
+          <SegmentURL mediaRange="83863-179570"/>
+          <SegmentURL mediaRange="179570-274760"/>
+          <SegmentURL mediaRange="274760-374039"/>
+          <SegmentURL mediaRange="374039-497733"/>
+          <SegmentURL mediaRange="497733-584599"/>
+          <SegmentURL mediaRange="584599-638889"/>
+          <SegmentURL mediaRange="638889-685671"/>
+          <SegmentURL mediaRange="685671-721222"/>
+          <SegmentURL mediaRange="721222-842111"/>
+          <SegmentURL mediaRange="842111-959461"/>
+          <SegmentURL mediaRange="959461-1065367"/>
+          <SegmentURL mediaRange="1065367-1162793"/>
+          <SegmentURL mediaRange="1162793-1238241"/>
+          <SegmentURL mediaRange="1238241-1308513"/>
+          <SegmentURL mediaRange="1308513-1373440"/>
+          <SegmentURL mediaRange="1373440-1432260"/>
+          <SegmentURL mediaRange="1432260-1506182"/>
+          <SegmentURL mediaRange="1506182-1568356"/>
+          <SegmentURL mediaRange="1568356-1677444"/>
+          <SegmentURL mediaRange="1677444-1769590"/>
+          <SegmentURL mediaRange="1769590-1857272"/>
+          <SegmentURL mediaRange="1857272-1905044"/>
+          <SegmentURL mediaRange="1905044-1948338"/>
+        </SegmentList>
+      </Representation>
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" bandwidth="510000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-500k_1.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-743"/>
+          <SegmentTimeline>
+            <S d="30208" t="0"/>
+            <S d="30720" t="30208"/>
+            <S d="30720" t="60928"/>
+            <S d="30720" t="91648"/>
+            <S d="38912" t="122368"/>
+            <S d="30720" t="161280"/>
+            <S d="32256" t="192000"/>
+            <S d="30720" t="224256"/>
+            <S d="28160" t="254976"/>
+            <S d="30720" t="283136"/>
+            <S d="30720" t="313856"/>
+            <S d="30720" t="344576"/>
+            <S d="30720" t="375296"/>
+            <S d="30720" t="406016"/>
+            <S d="30720" t="436736"/>
+            <S d="30720" t="467456"/>
+            <S d="30720" t="498176"/>
+            <S d="30720" t="528896"/>
+            <S d="26624" t="559616"/>
+            <S d="30720" t="586240"/>
+            <S d="30720" t="616960"/>
+            <S d="30720" t="647680"/>
+            <S d="26112" t="678400"/>
+            <S d="32768" t="704512"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="1064-163788"/>
+          <SegmentURL mediaRange="163788-370019"/>
+          <SegmentURL mediaRange="370019-567038"/>
+          <SegmentURL mediaRange="567038-761561"/>
+          <SegmentURL mediaRange="761561-990317"/>
+          <SegmentURL mediaRange="990317-1165736"/>
+          <SegmentURL mediaRange="1165736-1262766"/>
+          <SegmentURL mediaRange="1262766-1344957"/>
+          <SegmentURL mediaRange="1344957-1410942"/>
+          <SegmentURL mediaRange="1410942-1615727"/>
+          <SegmentURL mediaRange="1615727-1840648"/>
+          <SegmentURL mediaRange="1840648-2055086"/>
+          <SegmentURL mediaRange="2055086-2270435"/>
+          <SegmentURL mediaRange="2270435-2431248"/>
+          <SegmentURL mediaRange="2431248-2591105"/>
+          <SegmentURL mediaRange="2591105-2736483"/>
+          <SegmentURL mediaRange="2736483-2870377"/>
+          <SegmentURL mediaRange="2870377-3030461"/>
+          <SegmentURL mediaRange="3030461-3151534"/>
+          <SegmentURL mediaRange="3151534-3347512"/>
+          <SegmentURL mediaRange="3347512-3537410"/>
+          <SegmentURL mediaRange="3537410-3700453"/>
+          <SegmentURL mediaRange="3700453-3785528"/>
+          <SegmentURL mediaRange="3785528-3858996"/>
+        </SegmentList>
+      </Representation>
+      <Representation mimeType="video/mp4" codecs="avc1.64001e" width="640" height="360" frameRate="24000/1000" sar="1:1" bandwidth="1032000">
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-1000k.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-743"/>
+          <SegmentTimeline>
+            <S d="30208" t="0"/>
+            <S d="30720" t="30208"/>
+            <S d="30720" t="60928"/>
+            <S d="30720" t="91648"/>
+            <S d="38912" t="122368"/>
+            <S d="30720" t="161280"/>
+            <S d="32256" t="192000"/>
+            <S d="30720" t="224256"/>
+            <S d="28160" t="254976"/>
+            <S d="30720" t="283136"/>
+            <S d="30720" t="313856"/>
+            <S d="30720" t="344576"/>
+            <S d="30720" t="375296"/>
+            <S d="30720" t="406016"/>
+            <S d="30720" t="436736"/>
+            <S d="30720" t="467456"/>
+            <S d="30720" t="498176"/>
+            <S d="30720" t="528896"/>
+            <S d="26624" t="559616"/>
+            <S d="30720" t="586240"/>
+            <S d="30720" t="616960"/>
+            <S d="30720" t="647680"/>
+            <S d="26112" t="678400"/>
+            <S d="32768" t="704512"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="1064-311276"/>
+          <SegmentURL mediaRange="311276-699377"/>
+          <SegmentURL mediaRange="699377-1100232"/>
+          <SegmentURL mediaRange="1100232-1508917"/>
+          <SegmentURL mediaRange="1508917-1971112"/>
+          <SegmentURL mediaRange="1971112-2292301"/>
+          <SegmentURL mediaRange="2292301-2501092"/>
+          <SegmentURL mediaRange="2501092-2677118"/>
+          <SegmentURL mediaRange="2677118-2813540"/>
+          <SegmentURL mediaRange="2813540-3197711"/>
+          <SegmentURL mediaRange="3197711-3607884"/>
+          <SegmentURL mediaRange="3607884-3995507"/>
+          <SegmentURL mediaRange="3995507-4415153"/>
+          <SegmentURL mediaRange="4415153-4772272"/>
+          <SegmentURL mediaRange="4772272-5148473"/>
+          <SegmentURL mediaRange="5148473-5505605"/>
+          <SegmentURL mediaRange="5505605-5851034"/>
+          <SegmentURL mediaRange="5851034-6179963"/>
+          <SegmentURL mediaRange="6179963-6439965"/>
+          <SegmentURL mediaRange="6439965-6785692"/>
+          <SegmentURL mediaRange="6785692-7164371"/>
+          <SegmentURL mediaRange="7164371-7478270"/>
+          <SegmentURL mediaRange="7478270-7633445"/>
+          <SegmentURL mediaRange="7633445-7771571"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet segmentAlignment="true" startWithSAP="1" lang="eng" bitstreamSwitching="true">
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-500k.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-691"/>
+          <SegmentTimeline>
+            <S d="109568" t="0"/>
+            <S d="110592" t="109568"/>
+            <S d="109568" t="220160"/>
+            <S d="110592" t="329728"/>
+            <S d="110592" t="440320"/>
+            <S d="109568" t="550912"/>
+            <S d="110592" t="660480"/>
+            <S d="110592" t="771072"/>
+            <S d="109568" t="881664"/>
+            <S d="110592" t="991232"/>
+            <S d="225856" t="1101824"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="856-81317"/>
+          <SegmentURL mediaRange="81317-162835"/>
+          <SegmentURL mediaRange="162835-243095"/>
+          <SegmentURL mediaRange="243095-324202"/>
+          <SegmentURL mediaRange="324202-405488"/>
+          <SegmentURL mediaRange="405488-485875"/>
+          <SegmentURL mediaRange="485875-567339"/>
+          <SegmentURL mediaRange="567339-648352"/>
+          <SegmentURL mediaRange="648352-729097"/>
+          <SegmentURL mediaRange="729097-809973"/>
+          <SegmentURL mediaRange="809973-976052"/>
+        </SegmentList>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-250k.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-691"/>
+          <SegmentTimeline>
+            <S d="109568" t="0"/>
+            <S d="110592" t="109568"/>
+            <S d="109568" t="220160"/>
+            <S d="110592" t="329728"/>
+            <S d="110592" t="440320"/>
+            <S d="109568" t="550912"/>
+            <S d="110592" t="660480"/>
+            <S d="110592" t="771072"/>
+            <S d="109568" t="881664"/>
+            <S d="110592" t="991232"/>
+            <S d="225856" t="1101824"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="856-81317"/>
+          <SegmentURL mediaRange="81317-162835"/>
+          <SegmentURL mediaRange="162835-243095"/>
+          <SegmentURL mediaRange="243095-324202"/>
+          <SegmentURL mediaRange="324202-405488"/>
+          <SegmentURL mediaRange="405488-485875"/>
+          <SegmentURL mediaRange="485875-567339"/>
+          <SegmentURL mediaRange="567339-648352"/>
+          <SegmentURL mediaRange="648352-729097"/>
+          <SegmentURL mediaRange="729097-809973"/>
+          <SegmentURL mediaRange="809973-976052"/>
+        </SegmentList>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>mp4a-big-buck-bunny-trailer-22k.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-691"/>
+          <SegmentTimeline>
+            <S d="109568" t="0"/>
+            <S d="110592" t="109568"/>
+            <S d="109568" t="220160"/>
+            <S d="110592" t="329728"/>
+            <S d="110592" t="440320"/>
+            <S d="109568" t="550912"/>
+            <S d="110592" t="660480"/>
+            <S d="110592" t="771072"/>
+            <S d="109568" t="881664"/>
+            <S d="110592" t="991232"/>
+            <S d="225856" t="1101824"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="856-81317"/>
+          <SegmentURL mediaRange="81317-162835"/>
+          <SegmentURL mediaRange="162835-243095"/>
+          <SegmentURL mediaRange="243095-324202"/>
+          <SegmentURL mediaRange="324202-405488"/>
+          <SegmentURL mediaRange="405488-485875"/>
+          <SegmentURL mediaRange="485875-567339"/>
+          <SegmentURL mediaRange="567339-648352"/>
+          <SegmentURL mediaRange="648352-729097"/>
+          <SegmentURL mediaRange="729097-809973"/>
+          <SegmentURL mediaRange="809973-976052"/>
+        </SegmentList>
+      </Representation>
+      <Representation mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="22050" bandwidth="128000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>avc1-big-buck-bunny-trailer-360p-1000k_2.mp4</BaseURL>
+        <SegmentList>
+          <Initialization range="44-691"/>
+          <SegmentTimeline>
+            <S d="109568" t="0"/>
+            <S d="110592" t="109568"/>
+            <S d="109568" t="220160"/>
+            <S d="110592" t="329728"/>
+            <S d="110592" t="440320"/>
+            <S d="109568" t="550912"/>
+            <S d="110592" t="660480"/>
+            <S d="110592" t="771072"/>
+            <S d="109568" t="881664"/>
+            <S d="110592" t="991232"/>
+            <S d="225856" t="1101824"/>
+          </SegmentTimeline>
+          <SegmentURL mediaRange="856-81317"/>
+          <SegmentURL mediaRange="81317-162835"/>
+          <SegmentURL mediaRange="162835-243095"/>
+          <SegmentURL mediaRange="243095-324202"/>
+          <SegmentURL mediaRange="324202-405488"/>
+          <SegmentURL mediaRange="405488-485875"/>
+          <SegmentURL mediaRange="485875-567339"/>
+          <SegmentURL mediaRange="567339-648352"/>
+          <SegmentURL mediaRange="648352-729097"/>
+          <SegmentURL mediaRange="729097-809973"/>
+          <SegmentURL mediaRange="809973-976052"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
